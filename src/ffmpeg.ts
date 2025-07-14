@@ -1,5 +1,4 @@
 import { spawn } from 'child_process';
-import { promisify } from 'util';
 
 export function executeFFmpeg(args: string[]): Promise<string> {
 	return new Promise((resolve, reject) => {
