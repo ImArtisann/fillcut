@@ -1,0 +1,21 @@
+{
+  "name": "fillcut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "openai": "^5.9.0",
+    "p-limit": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "prettier": "3.6.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
